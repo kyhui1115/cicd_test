@@ -27,5 +27,5 @@ jobs:
       - name: Deploy to Vercel
         uses: amondnet/vercel-action@v20
         with:
-          vercel_token: ${{ secrets.VERCEL_TOKEN }}
-          vercel_project_id: cicd-test-2ucya0z5f-kyhui1115
+          vercel-token: ${{ secrets.VERCEL_TOKEN }}
+          vercel-project-id: cicd-test-2ucya0z5f-kyhui1115
